@@ -137,14 +137,15 @@
       display: flex;
       justify-content: center;
       gap: 12px;
-      flex-wrap: wrap
+      flex-wrap: nowrap;
+      width: 100%
     }
 
     .badges a {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      min-height: 56px;
+      flex: 0 0 auto;
       text-decoration: none;
       transition: transform .18s ease, box-shadow .18s ease, opacity .18s ease
     }
@@ -156,9 +157,9 @@
 
     .badges a img {
       display: block;
-      height: 56px;
       width: auto;
-      max-width: 100%;
+      height: 56px;
+      max-width: none;
       border-radius: 14px
     }
 
