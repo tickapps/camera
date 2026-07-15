@@ -72,7 +72,9 @@
     ul { padding-left: 22px }
     li { margin: 6px 0 }
     .shots { display: flex; gap: 10px; overflow-x: auto; padding: 10px 0 }
-    .shots img { width: auto; height: 340px; border-radius: 14px }
+    .shots img { display: block; width: 160px; height: auto; border-radius: 14px }
+    .shots figure { flex: 0 0 160px; margin: 0 }
+    .shots figcaption { margin-top: 8px; color: #666; font-size: .85em; line-height: 1.4 }
     .faq h3 { margin: 20px 0 6px; font-size: 1.05em }
     .faq p { margin: 0 0 12px }
     footer { margin: 56px 0 24px; padding-top: 20px; color: #777; text-align: center; font-size: .9em; border-top: 1px solid #ccc }
@@ -112,16 +114,22 @@
     </ul>
     <p>每项水印元素都可以独立开启或关闭，并可分别调整字体、字号和颜色；常用地点可以保存为自定义位置标签。</p>
 
-    <h2>水印模板</h2>
+    <h2>不同平台的水印模板</h2>
+    <p>iOS 与 Android 版本提供的模板不同。</p>
+    <h3>Android</h3>
     <ul>
       <li><strong>经典：</strong>集中显示时间、位置与环境数据。</li>
       <li><strong>工作记录：</strong>突出时间、地点、GPS 坐标、时区、自定义标签和“Verified by System”标记。</li>
+    </ul>
+    <h3>iOS</h3>
+    <ul>
+      <li><strong>经典：</strong>集中显示时间、位置与环境数据。</li>
       <li><strong>报告水印：</strong>面向工作报告与现场记录。</li>
       <li><strong>GPS 认证：</strong>突出坐标与定位精度。</li>
       <li><strong>强调线：</strong>简洁的水印样式。</li>
       <li><strong>植物生长记录：</strong>设置 Day 1 后自动计算生长天数，并在照片中显示备注、日期、时间、温湿度和地点。</li>
     </ul>
-    <p><strong>不同平台和版本提供的模板有所不同。</strong>Android 提供经典和工作记录模板；上面列出的更多模板可在 iOS 版本中使用。</p>
+    <p>模板可能随已安装的 App 版本变化。</p>
 
     <h2>适用场景</h2>
     <ul>
@@ -134,12 +142,12 @@
 
     <h2>真实 App 截图</h2>
     <div class="shots">
-      <img src="../6.jpg" width="1284" height="2778" loading="lazy" alt="带生长天数、备注、日期、时间、温湿度和地点水印的植物记录照片">
-      <img src="../1.jpg" width="853" height="1844" loading="lazy" alt="带日期、时间、GPS 和地图水印的照片">
-      <img src="../2.jpg" width="853" height="1843" loading="lazy" alt="水印模板选择界面">
-      <img src="../3.jpg" width="853" height="1844" loading="lazy" alt="自定义水印元素界面">
-      <img src="../4.jpg" width="853" height="1844" loading="lazy" alt="标准、卫星和混合地图水印模式">
-      <img src="../5.jpg" width="852" height="1846" loading="lazy" alt="带地址与坐标的工作记录照片">
+      <figure><img src="../6.jpg" width="1284" height="2778" loading="lazy" alt="带生长天数、备注、日期、时间、温湿度和地点水印的植物记录照片"><figcaption>植物生长记录同时显示生长天数、时间、天气和地点。</figcaption></figure>
+      <figure><img src="../1.jpg" width="853" height="1844" loading="lazy" alt="带日期、时间、GPS 和地图水印的照片"><figcaption>实际拍摄照片中的日期、时间、经纬度、地址和地图水印。</figcaption></figure>
+      <figure><img src="../2.jpg" width="853" height="1843" loading="lazy" alt="水印模板选择界面"><figcaption>从模板列表中选择需要的水印版式。</figcaption></figure>
+      <figure><img src="../3.jpg" width="853" height="1844" loading="lazy" alt="自定义水印元素界面"><figcaption>单独开启、关闭并调整不同水印元素。</figcaption></figure>
+      <figure><img src="../4.jpg" width="853" height="1844" loading="lazy" alt="标准、卫星和混合地图水印模式"><figcaption>地图水印支持标准、卫星和混合三种模式。</figcaption></figure>
+      <figure><img src="../5.jpg" width="852" height="1846" loading="lazy" alt="带地址与坐标的工作记录照片"><figcaption>包含地址、经纬度、日期与时间的工作记录照片。</figcaption></figure>
     </div>
 
     <h2>常见问题</h2>

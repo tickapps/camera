@@ -199,8 +199,22 @@
     }
 
     .shots img {
-      height: 340px;
+      display: block;
+      width: 160px;
+      height: auto;
       border-radius: 14px
+    }
+
+    .shots figure {
+      flex: 0 0 160px;
+      margin: 0
+    }
+
+    .shots figcaption {
+      margin-top: 8px;
+      color: #666;
+      font-size: .85em;
+      line-height: 1.4
     }
 
     footer {
@@ -253,11 +267,17 @@
     <p>Every watermark element can be turned on or off independently. Font, font size, and color are adjustable for each
       element. Custom location tags can be saved and reused.</p>
 
-    <h2>Watermark templates</h2>
+    <h2>Watermark templates by platform</h2>
+    <p>Template availability differs between the iOS and Android versions.</p>
+    <h3>Android</h3>
     <ul>
       <li><strong>Classic</strong> — the full-detail stamp with time, location, and environment data.</li>
       <li><strong>Work Record</strong> — focuses on job-site records with time, place name, GPS coordinates, time zone,
         a custom badge, and a “Verified by System” label.</li>
+    </ul>
+    <h3>iOS</h3>
+    <ul>
+      <li><strong>Classic</strong> — the full-detail stamp with time, location, and environment data.</li>
       <li><strong>Report Stamp</strong> — a layout focused on work reports and site documentation.</li>
       <li><strong>GPS Verify</strong> — highlights coordinates and location accuracy for verification photos.</li>
       <li><strong>Accent</strong> — a clean, minimal stamp style.</li>
@@ -265,8 +285,7 @@
         plant has been growing, stamped on each photo with your note, date, time, temperature, humidity, and
         location.</li>
     </ul>
-    <p><strong>Template availability varies by platform and app version.</strong> Android includes Classic and Work
-      Record; the wider template selection described above is available on iOS.</p>
+    <p>Template availability can change with the installed app version.</p>
 
     <h2>Who uses it</h2>
     <ul>
@@ -279,13 +298,13 @@
 
     <h2>Screenshots</h2>
     <div class="shots">
-      <img src="../6.jpg" width="1284" height="2778" loading="lazy"
-        alt="Plant growth tracking photo with day count, note, date, time, temperature, humidity, and location watermark">
-      <img src="../1.jpg" width="853" height="1844" loading="lazy" alt="Photo with date, time, GPS and map watermark">
-      <img src="../2.jpg" width="853" height="1843" loading="lazy" alt="Watermark template selection">
-      <img src="../3.jpg" width="853" height="1844" loading="lazy" alt="Customizable watermark elements">
-      <img src="../4.jpg" width="853" height="1844" loading="lazy" alt="Map watermark modes: Standard, Satellite, Hybrid">
-      <img src="../5.jpg" width="852" height="1846" loading="lazy" alt="Work documentation photo with address and coordinates">
+      <figure><img src="../6.jpg" width="1284" height="2778" loading="lazy"
+        alt="Plant growth tracking photo with day count, note, date, time, temperature, humidity, and location watermark"><figcaption>Plant Growth Tracking records the day count with time, weather, and location.</figcaption></figure>
+      <figure><img src="../1.jpg" width="853" height="1844" loading="lazy" alt="Photo with date, time, GPS and map watermark"><figcaption>A captured photo with date, time, GPS coordinates, address, and map.</figcaption></figure>
+      <figure><img src="../2.jpg" width="853" height="1843" loading="lazy" alt="Watermark template selection"><figcaption>The template selection screen for choosing a watermark layout.</figcaption></figure>
+      <figure><img src="../3.jpg" width="853" height="1844" loading="lazy" alt="Customizable watermark elements"><figcaption>Individual watermark elements can be enabled, disabled, and styled.</figcaption></figure>
+      <figure><img src="../4.jpg" width="853" height="1844" loading="lazy" alt="Map watermark modes: Standard, Satellite, Hybrid"><figcaption>Map watermarks support Standard, Satellite, and Hybrid modes.</figcaption></figure>
+      <figure><img src="../5.jpg" width="852" height="1846" loading="lazy" alt="Work documentation photo with address and coordinates"><figcaption>A work record with address, coordinates, date, and time.</figcaption></figure>
     </div>
 
     <h2>Frequently asked questions</h2>
