@@ -34,7 +34,7 @@
       "alternateName": ["Timestamp Camera", "天天水印相机"],
       "operatingSystem": ["iOS", "Android"],
       "applicationCategory": "MultimediaApplication",
-      "description": "A free camera app that adds date, time, GPS location, map, and address watermarks to photos and videos for work documentation, site records, property inspections, plant growth tracking, and outdoor activities.",
+      "description": "A free, ad-supported camera app for iOS and Android that adds date, time, GPS, address, map, altitude, bearing, temperature, and pressure watermarks while capturing photos and videos. Six templates support work records, inspections, and plant records. On iOS, selected images can be combined into a local photo report; imported images are not watermarked.",
       "image": "https://camera.appro7.com/app-icon2.jpg",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
       "publisher": { "@id": "https://camera.appro7.com/#publisher" },
@@ -290,18 +290,32 @@
       </a>
     </div>
 
-    <h2>Choose what your photos and videos show</h2>
+    <h2>What information can a timestamp camera add to photos and videos?</h2>
+    <p>Timestamp Camera - Time &amp; GPS+ adds selected details while you capture a photo or video. Choose the fields you need for a work record, inspection, delivery, or outdoor photo.</p>
     <ul>
-      <li><strong>Location:</strong> GPS coordinates (latitude &amp; longitude), full or short address, altitude,
-        location accuracy, and bearing.</li>
-      <li><strong>Embedded map:</strong> a live map watermark in Standard, Satellite, or Hybrid mode.</li>
-      <li><strong>Date &amp; time:</strong> customizable formats (e.g. yyyy-MM-dd HH:mm:ss) and time zone display (e.g.
-        GMT+8).</li>
-      <li><strong>Temperature &amp; pressure:</strong> add temperature and atmospheric pressure to supported watermarks.</li>
+      <li><strong>Map:</strong> embed a map in the watermark, with Standard, Satellite, and Hybrid map types. The iOS basic template also lets you adjust the map zoom.</li>
+      <li><strong>Short address:</strong> show a concise location label.</li>
+      <li><strong>Full address:</strong> show a more detailed address when the record needs it.</li>
+      <li><strong>Latitude and longitude:</strong> display GPS coordinates, including a decimal format.</li>
+      <li><strong>Date and time:</strong> customize the display format, including formats with the weekday or seconds.</li>
+      <li><strong>Time zone:</strong> include a time zone display, such as a GMT offset.</li>
+      <li><strong>Altitude:</strong> show elevation in metres.</li>
+      <li><strong>Location accuracy:</strong> include the location accuracy value in metres.</li>
+      <li><strong>Compass bearing:</strong> show the direction as an angle and direction label in the watermark.</li>
+      <li><strong>Temperature:</strong> include a temperature reading.</li>
+      <li><strong>Atmospheric pressure:</strong> include a pressure reading in hPa.</li>
     </ul>
-    <p>On iOS, the Plant Growth Tracking template also supports humidity. Available elements vary by platform and template.</p>
-    <p>Every watermark element can be turned on or off independently. Font, font size, and color are adjustable for each
-      element. Custom location tags can be saved and reused.</p>
+    <p>Available fields depend on the template and platform. The iOS Plant Growth Tracking template also supports humidity. Inspection Record supports a weather field; temperature and pressure in the basic template are separate readings, not a weather forecast.</p>
+
+    <h2>How can I customize the watermark?</h2>
+    <ul>
+      <li>Turn supported watermark elements on or off to keep a record compact or show more detail.</li>
+      <li>Choose Emoji or symbols for the watermark's supported labels.</li>
+      <li>Adjust the font, font size, and color of supported elements.</li>
+      <li>Save custom location tags and reuse frequently used addresses.</li>
+      <li>Edit the badge text in supported work templates and choose which record fields to display.</li>
+      <li>On iOS, add your own logo or image to supported watermarks.</li>
+    </ul>
 
     <h2>Watermark templates by platform</h2>
     <p>iOS and Android both offer the following six watermark templates. Available elements can vary by platform and template.</p>
@@ -311,8 +325,8 @@
       <li><strong>Accent</strong> — a compact layout with an editable badge, date and time, time zone, address, and an optional accent line.</li>
       <li><strong>Work Record</strong> — a work-photo layout with an editable badge and selectable coordinates, date and time, time zone, location icon, and Verified label.</li>
       <li><strong>Verified Stamp</strong> — a stamp-style layout with address, date and time, time zone, and optional location icon and Verified label.</li>
-      <li><strong>Plant Growth Tracking</strong> — a template for recording plant growth over time.</li>
-      <li><strong>Inspection Record</strong> — add people, notes, and weather conditions such as sunny or cloudy to inspection records.</li>
+      <li><strong>Plant Growth Tracking</strong> — record plant growth with dated photos and a growth-day count based on a Day 1 date.</li>
+      <li><strong>Inspection Record</strong> — record inspection details such as people, notes, and weather conditions such as sunny or cloudy.</li>
     </ul>
     <h3>iOS</h3>
     <ul>
@@ -320,29 +334,43 @@
       <li><strong>Accent</strong> — a compact layout with an editable badge, date and time, time zone, address, and an optional accent line.</li>
       <li><strong>Work Record</strong> — a work-photo layout with an editable badge and selectable coordinates, date and time, time zone, location icon, and Verified label.</li>
       <li><strong>Verified Stamp</strong> — a stamp-style layout with address, date and time, time zone, and optional location icon and Verified label.</li>
-      <li><strong>Plant Growth Tracking</strong> — a template for recording plant growth over time.</li>
-      <li><strong>Inspection Record</strong> — add people, notes, and weather conditions such as sunny or cloudy to inspection records.</li>
+      <li><strong>Plant Growth Tracking</strong> — record plant growth with dated photos. On iOS, set Day 1 to show a growth-day count, together with your note, date, time, temperature, humidity, and location.</li>
+      <li><strong>Inspection Record</strong> — record inspection details such as people, notes, and weather conditions. On iOS, customize project and scene fields, date and time, address, text, colors, and which supported fields appear.</li>
     </ul>
     <p>All watermark templates are free to use, with no ad to watch before switching. The app still displays ads. Template availability can change with the installed app version.</p>
 
-    <h2>Photo reports on iOS</h2>
-    <p>After you take at least one photo in the app, the Report button appears next to the shutter button.</p>
+    <h2>How do I create a photo report on iOS?</h2>
+    <p>Photo reports turn selected images into one shareable long image for site inspections, property checks, and other multi-photo records.</p>
     <ul>
-      <li>Combine 1–42 images into one shareable report image, arranged three per row.</li>
-      <li>Use watermarked photos taken in the app or images from your photo library. Existing watermarks are preserved; importing an image does not add a watermark.</li>
-      <li>Add your logo, company/project, scene name, reporter, and date.</li>
-      <li>Reports are generated locally on your device, and the feature is free.</li>
+      <li>Take at least one photo in the app; the Report button then appears next to the shutter button.</li>
+      <li>Select 1–42 images: watermarked photos taken in the app or other images from your photo library. Existing watermarks are preserved. Importing an image does not add a watermark.</li>
+      <li>Images are arranged three per row, and the report image grows longer as you add more.</li>
+      <li>Add a logo, company/project, scene name, reporter, date, and weather field.</li>
+      <li>Customize the company/project, scene name, and divider colors.</li>
+      <li>Optionally include a footer with the app name and a scannable QR code.</li>
+      <li>Add or remove images, then share the finished report as a single image.</li>
     </ul>
-    <p>A photo report combines images; it is separate from the watermark templates used when capturing photos and videos. Reports are not saved inside the app, and each new report starts fresh.</p>
+    <p>Reports are generated locally on your device, and the feature is free. Reports are not saved inside the app; each new report starts fresh. The report editor does not support dragging to reorder or cropping images. To replace an image, remove it and add another.</p>
 
-    <h2>Who uses it</h2>
+    <h2>Camera controls and saved photos</h2>
     <ul>
-      <li>Construction and field teams documenting site conditions with time and location records.</li>
-      <li>Property managers recording inspections with stamped photos and GPS coordinates.</li>
-      <li>Delivery and field service workers capturing proof-of-work photos.</li>
-      <li>Plant lovers and gardeners tracking plant growth day by day with dated photos.</li>
-      <li>Hikers and travelers logging routes with altitude, coordinates, and bearing.</li>
+      <li>Capture photos and videos with a real-time watermark preview.</li>
+      <li>Use the front or rear camera in portrait or landscape orientation.</li>
+      <li>Use automatic flash and horizontal and vertical guide lines for framing.</li>
+      <li>The currently confirmed camera zoom is 1×. Map zoom changes the map display, not camera zoom.</li>
+      <li>Photos are saved locally on your device.</li>
+      <li>On iOS, captured photos and videos are saved in an album named after the app. The in-app viewer lets you browse captured media, view details, and delete unwanted items.</li>
     </ul>
+
+    <h2>Using timestamp photos for work, inspections, and plant records</h2>
+    <h3>Construction progress, field work, and photo clock-ins</h3>
+    <p>Choose Work Record or another suitable template, show the date, time, location, and job label you need, and take photos at the start and end of a visit or workday. The timestamps give you a record to compare when calculating hours yourself; the app does not automatically calculate attendance or working hours.</p>
+    <h3>Property inspections, maintenance visits, and deliveries</h3>
+    <p>Photograph each location or completed task with the address, GPS coordinates, time, and relevant inspection notes. On iOS, combine selected photos into a report image with a project name and reporter for sharing.</p>
+    <h3>Plant growth tracking</h3>
+    <p>On iOS, set the Day 1 date in Plant Growth Tracking, add a note, and take photos over time. The watermark can show the growth-day count with date, time, temperature, humidity, and location.</p>
+    <h3>Travel and outdoor records</h3>
+    <p>Include the date, location, map, altitude, and bearing in a photo or video to keep the capture context visible when you save or share it.</p>
 
     <h2>Screenshots</h2>
     <div class="shots">
@@ -374,6 +402,15 @@
       <h3>Can it track plant growth?</h3>
       <p>Yes. On iOS, the Plant Growth Tracking template counts the days since your set Day 1 date and stamps the day count,
         your note, date, time, temperature, humidity, and location on each photo.</p>
+
+      <h3>Can I import an existing photo and add a timestamp or GPS watermark?</h3>
+      <p>No. Watermarks are added while taking photos or recording videos in the app. Images from your photo library can be included in photo reports, but importing them does not add or replace their watermarks.</p>
+
+      <h3>Can the app automatically calculate working hours?</h3>
+      <p>No. You can take timestamped photos when starting and finishing work and calculate the interval yourself. The app does not automatically total hours or provide payroll or employee scheduling.</p>
+
+      <h3>Can I change the capture time or treat every field as tamper-proof?</h3>
+      <p>The capture time cannot be edited in the app. This does not mean every field or the whole image is tamper-proof: location information can be affected if a device's system location is modified or spoofed.</p>
 
       <h3>Which features need an internet connection?</h3>
       <p>Maps and address lookup need an internet connection. If a field does not load, check your network connection and location permission.</p>
