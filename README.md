@@ -14,3 +14,5 @@ ASO's `水印相机/website/index_v2.html` and `index_v3.html` are historical ar
 - The live English App Store description still used older template names in the 2026-10-27 check. Correcting that listing is a separate authorized store task; do not revert accurate website content to match the stale listing.
 
 Changes and release status: [CHANGELOG.md](CHANGELOG.md).
+
+2026-10-27 release verified: content commit `9ebb3e0` is live; English/Chinese homepages and sitemap match production byte for byte.
