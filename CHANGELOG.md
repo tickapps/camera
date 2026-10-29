@@ -1,5 +1,14 @@
 # Website changelog
 
+## 2026-10-29 — iOS 1.7.0 template naming
+
+- Listed the six confirmed iOS 1.7.0 template names in English and Simplified Chinese, with a dated awaiting-review notice and the current 1.6.3 release state. Kept Android names unchanged.
+- Added the upcoming two-column list with high-resolution scene previews, five-language naming, and landscape video watermark spacing/positioning fix.
+- Replaced stale iOS template-name references in feature explanations, examples, captions and English FAQ with version-neutral feature wording; retained confirmed template-specific field boundaries without inferring every old/new field mapping.
+- Removed the `2.jpg` figure, which was incorrectly labelled as the template-selection interface, from both homepages. Retained its source asset; no real replacement UI screenshot was available.
+- Updated homepage sitemap dates and the Chinese WebPage dateModified. Kept locale routing, store links, privacy and terms unchanged.
+- Pre-change production HTML, headers and hashes are archived in ASO under `水印相机/website/live_audit/2026-10-29-template-names/`.
+
 ## 2026-10-27 — published via GitHub Pages
 
 - Reorganized the existing English and Chinese iOS photo-report instructions into four numbered steps: open Report, select images, add details, share. Retained the actual limits and platform scope.

@@ -16,3 +16,9 @@ ASO's `水印相机/website/index_v2.html` and `index_v3.html` are historical ar
 Changes and release status: [CHANGELOG.md](CHANGELOG.md).
 
 2026-10-27 release verified: content commit `9ebb3e0` is live; English/Chinese homepages and sitemap match production byte for byte.
+
+## 2026-10-29 template-name update
+
+The homepage now distinguishes the submitted iOS 1.7.0 names from unchanged Android names. The iOS section is explicitly dated and labelled awaiting review; current public iOS release remains 1.6.3 at the check. This is a live website describing an upcoming app update, not a claim that iOS 1.7.0 has launched.
+
+The misleading `2.jpg` figure has been removed from both pages; the source asset remains. It is promotional timestamp artwork, not the template-selection UI. A real 1.7.0 two-column list screenshot has not been supplied, so no replacement UI screenshot was fabricated. Other page routing, store URLs and privacy documents remain unchanged.
