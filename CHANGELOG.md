@@ -1,5 +1,12 @@
 # Website changelog
 
+## 2026-10-29 — product-focused public copy
+
+- User requested launch-state, evergreen product copy for the public site. Removed release dates, version numbers, review/test-build notices and update-log phrasing from both homepages and screenshot captions.
+- Kept actual review state in ASO internal records; this copy direction is not evidence of App Store approval.
+- Removed the standalone TestFlight screen captures after user clarified they were input material for editing a promotional image, not public gallery cards. Restored the original timestamp promotional card with an accurate caption; corrected the photo/video and customization captions. The user subsequently chose to defer all promotional-image edits until they supply new artwork. Removed the two standalone screenshot assets from the publishing source; originals remain in ASO.
+- Preserved original image files, locale routing, Android names and confirmed product functionality.
+
 ## 2026-10-29 — iOS 1.7.0 template naming
 
 - Listed the six confirmed iOS 1.7.0 template names in English and Simplified Chinese, with a dated awaiting-review notice and the current 1.6.3 release state. Kept Android names unchanged.

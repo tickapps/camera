@@ -22,3 +22,7 @@ Changes and release status: [CHANGELOG.md](CHANGELOG.md).
 The homepage now distinguishes the submitted iOS 1.7.0 names from unchanged Android names. The iOS section is explicitly dated and labelled awaiting review; current public iOS release remains 1.6.3 at the check. This is a live website describing an upcoming app update, not a claim that iOS 1.7.0 has launched.
 
 The misleading `2.jpg` figure has been removed from both pages; the source asset remains. It is promotional timestamp artwork, not the template-selection UI. The user subsequently supplied real English and Simplified Chinese iOS 1.7.0 test-build screenshots. They now appear in the respective homepages from locale-specific assets paths, unchanged at 1179×2556 and with full-size links; captions retain the awaiting-review status. Other page routing, store URLs and privacy documents remain unchanged.
+
+Public-copy direction (2026-10-29): the user explicitly requests launch-state product presentation. Public pages and image captions describe features and user value, without internal version dates, test/review status or release-log language. ASO retains the actual App Store status separately; do not treat this presentation choice as approval evidence.
+
+The user-provided template-selection screenshots are source material only. They were removed from the public gallery and publishing assets at the user’s request; retain the existing promotional graphics until the user supplies replacements.
