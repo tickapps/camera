@@ -1,5 +1,13 @@
 # Website changelog
 
+## 2026-11-02 — shared template facts
+
+- User confirmed that iOS and Android have the same six templates, two-column list with high-resolution scene previews, and Classic Map defaults: altitude, location accuracy, compass bearing, temperature, and atmospheric pressure, with user-controlled visibility.
+- Consolidate duplicate platform lists into one shared list on both homepages, retaining the same left-to-right, top-to-bottom order confirmed by the user’s iOS screenshot. The screenshot is reference material, not a new gallery asset.
+- Correct Filipino template-name availability: Android supports the supplied localized names now; iOS is planned for its next release. Public copy describes current Android availability only, without announcing an unreleased feature.
+- Retain the iOS scope of the landscape-video statement and other previously confirmed platform-specific details; preserve existing promotional images and routing.
+- User authorized publication on 2026-11-02. Deployment and production readback evidence are maintained in ASO under `水印相机/website/live_audit/2026-11-02-android-1.9.0/`.
+
 ## 2026-10-29 — product-focused public copy
 
 - User requested launch-state, evergreen product copy for the public site. Removed release dates, version numbers, review/test-build notices and update-log phrasing from both homepages and screenshot captions.
