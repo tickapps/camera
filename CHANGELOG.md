@@ -1,5 +1,11 @@
 # Website changelog
 
+## 2026-11-02 — complete template-name language information
+
+- Add a dedicated template-name language subsection on both homepages: English, Simplified Chinese, Indonesian, and Vietnamese on iOS and Android; Filipino template names currently on Android only.
+- Keep the scope on template-name localization, distinct from store listing locales and general app language declarations.
+- User authorized both language pages, publication, and related ASO records. Release evidence is maintained in ASO under `水印相机/website/live_audit/2026-11-02-template-languages/`.
+
 ## 2026-11-02 — shared template facts
 
 - User confirmed that iOS and Android have the same six templates, two-column list with high-resolution scene previews, and Classic Map defaults: altitude, location accuracy, compass bearing, temperature, and atmospheric pressure, with user-controlled visibility.
