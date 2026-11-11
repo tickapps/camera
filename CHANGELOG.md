@@ -1,5 +1,11 @@
 # Website changelog
 
+## 2026-11-12 — Android framing and capture controls
+
+- Extend four previously iOS-qualified capabilities to iOS and Android: 4:3/1:1 framing and watermark alignment, whole-watermark resizing, offline coordinates/altitude, and watermark/address shortcuts.
+- Update visible copy, structured description, outdoor-use text, connectivity FAQ, and the two homepage sitemap dates. Maps and address lookup still require internet.
+- Preserve the platform scopes of reports, plant humidity, custom logos, and other unrelated features. The user approved the exact 15-language GP maintenance scope and both website pages for submission/publication.
+
 ## 2026-11-02 — complete template-name language information
 
 - Add a dedicated template-name language subsection on both homepages: English, Simplified Chinese, Indonesian, and Vietnamese on iOS and Android; Filipino template names currently on Android only.
