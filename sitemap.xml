@@ -3,14 +3,14 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://camera.appro7.com/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://camera.appro7.com/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://camera.appro7.com/zh-cn/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://camera.appro7.com/" />
   </url>
   <url>
     <loc>https://camera.appro7.com/zh-cn/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://camera.appro7.com/" />
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://camera.appro7.com/zh-cn/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://camera.appro7.com/" />
@@ -20,5 +20,53 @@
   </url>
   <url>
     <loc>https://camera.appro7.com/termsofuse.html</loc>
+  </url>
+  <url>
+    <loc>https://camera.appro7.com/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camera.appro7.com/blog/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://camera.appro7.com/zh-cn/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camera.appro7.com/blog/" />
+  </url>
+  <url>
+    <loc>https://camera.appro7.com/zh-cn/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camera.appro7.com/blog/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://camera.appro7.com/zh-cn/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camera.appro7.com/blog/" />
+  </url>
+  <url>
+    <loc>https://camera.appro7.com/blog/day-counter-watermark/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camera.appro7.com/blog/day-counter-watermark/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://camera.appro7.com/zh-cn/blog/day-counter-watermark/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camera.appro7.com/blog/day-counter-watermark/" />
+  </url>
+  <url>
+    <loc>https://camera.appro7.com/zh-cn/blog/day-counter-watermark/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camera.appro7.com/blog/day-counter-watermark/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://camera.appro7.com/zh-cn/blog/day-counter-watermark/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camera.appro7.com/blog/day-counter-watermark/" />
+  </url>
+  <url>
+    <loc>https://camera.appro7.com/blog/plant-growth-photos/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camera.appro7.com/blog/plant-growth-photos/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://camera.appro7.com/zh-cn/blog/plant-growth-photos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camera.appro7.com/blog/plant-growth-photos/" />
+  </url>
+  <url>
+    <loc>https://camera.appro7.com/zh-cn/blog/plant-growth-photos/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camera.appro7.com/blog/plant-growth-photos/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://camera.appro7.com/zh-cn/blog/plant-growth-photos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camera.appro7.com/blog/plant-growth-photos/" />
+  </url>
+  <url>
+    <loc>https://camera.appro7.com/blog/fitness-progress-photos/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camera.appro7.com/blog/fitness-progress-photos/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://camera.appro7.com/zh-cn/blog/fitness-progress-photos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camera.appro7.com/blog/fitness-progress-photos/" />
+  </url>
+  <url>
+    <loc>https://camera.appro7.com/zh-cn/blog/fitness-progress-photos/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camera.appro7.com/blog/fitness-progress-photos/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://camera.appro7.com/zh-cn/blog/fitness-progress-photos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camera.appro7.com/blog/fitness-progress-photos/" />
   </url>
 </urlset>
